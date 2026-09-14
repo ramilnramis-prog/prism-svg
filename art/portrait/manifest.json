@@ -1,0 +1,126 @@
+{
+  "seed": "prism-demo",
+  "size": {
+    "name": "portrait",
+    "width": 900,
+    "height": 1200
+  },
+  "animate": false,
+  "generatedAt": "2026-09-14T08:46:59.803Z",
+  "items": [
+    {
+      "file": "01-bauhaus-ocean-d417b9.svg",
+      "png": null,
+      "style": "bauhaus",
+      "palette": "ocean",
+      "mood": "глубина океана",
+      "seed": 792834885,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#00b4d8",
+        "#48cae4",
+        "#90e0ef",
+        "#0077b6",
+        "#5eead4"
+      ],
+      "background": "#04121f",
+      "bytes": 14977
+    },
+    {
+      "file": "02-flow-berry-cu1lma.svg",
+      "png": null,
+      "style": "flow",
+      "palette": "berry",
+      "mood": "ягодный сорбет",
+      "seed": 776057266,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#e0218a",
+        "#8338ec",
+        "#3a86ff",
+        "#ffbe0b",
+        "#fb5607"
+      ],
+      "background": "#150818",
+      "bytes": 3990
+    },
+    {
+      "file": "03-glass-candy-ck1zxb.svg",
+      "png": null,
+      "style": "glass",
+      "palette": "candy",
+      "mood": "кислотная карамель",
+      "seed": 759279647,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#ff2e88",
+        "#ff8ac4",
+        "#7c4dff",
+        "#00d9c0",
+        "#fff35c"
+      ],
+      "background": "#12071c",
+      "bytes": 4050
+    },
+    {
+      "file": "04-mesh-paper-ca2e8c.svg",
+      "png": null,
+      "style": "mesh",
+      "palette": "paper",
+      "mood": "бумага и краска",
+      "seed": 742502028,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#e63946",
+        "#1d3557",
+        "#2a9d8f",
+        "#f4a261",
+        "#111111"
+      ],
+      "background": "#fdf6ec",
+      "bytes": 4094
+    },
+    {
+      "file": "05-blobs-lavender-c02sjd.svg",
+      "png": null,
+      "style": "blobs",
+      "palette": "lavender",
+      "mood": "лавандовое поле",
+      "seed": 725724409,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#7c3aed",
+        "#c084fc",
+        "#f0abfc",
+        "#4c1d95",
+        "#38bdf8"
+      ],
+      "background": "#f6f2ff",
+      "bytes": 9259
+    },
+    {
+      "file": "06-dots-mint-bq36ue.svg",
+      "png": null,
+      "style": "dots",
+      "palette": "mint",
+      "mood": "свежая мята",
+      "seed": 708946790,
+      "width": 900,
+      "height": 1200,
+      "colors": [
+        "#00997a",
+        "#3ddc97",
+        "#7bdff2",
+        "#2d6a4f",
+        "#a7f3d0"
+      ],
+      "background": "#f2fbf8",
+      "bytes": 76342
+    }
+  ]
+}

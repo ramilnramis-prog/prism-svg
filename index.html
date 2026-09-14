@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prism SVG — генератор красочных постеров</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background:
+      radial-gradient(1000px 560px at 15% -10%, rgba(124,92,255,.28), transparent 62%),
+      radial-gradient(880px 500px at 100% 5%, rgba(0,229,255,.18), transparent 58%),
+      radial-gradient(700px 420px at 50% 110%, rgba(255,91,209,.16), transparent 60%),
+      #0a0b10;
+    color: #eef1f8;
+    font: 16px/1.6 ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+    padding: 32px;
+  }
+  main { max-width: 760px; text-align: center; }
+  h1 { font-size: clamp(30px, 6vw, 54px); margin: 0 0 12px; letter-spacing: -0.025em; }
+  h1 span { background: linear-gradient(92deg, #7c5cff, #00e5ff 45%, #ff5bd1); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p { color: #9aa3b8; margin: 0 0 28px; }
+  .links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  a {
+    display: inline-block; padding: 13px 22px; border-radius: 12px; text-decoration: none;
+    border: 1px solid #2c3145; background: #14161f; color: #eef1f8; font-weight: 500;
+    transition: transform .18s ease, border-color .18s ease, background .18s ease;
+  }
+  a:hover { transform: translateY(-2px); border-color: #4a5178; background: #1b1e2b; }
+  a.primary { background: linear-gradient(92deg, #7c5cff, #5b8cff); border-color: transparent; }
+  a.primary:hover { background: linear-gradient(92deg, #8b6dff, #6b98ff); }
+  code { background: #14161f; border: 1px solid #242838; border-radius: 6px; padding: 2px 7px; font-size: 14px; color: #cfd6ea; }
+  footer { margin-top: 34px; color: #7d869c; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Генератор <span>Prism SVG</span></h1>
+  <p>12 постеров, 6 стилей, 10 палитр — всё нарисовано кодом. Статичная страница, сервер не нужен.</p>
+  <div class="links">
+    <a class="primary" href="./art/index.html">Открыть галерею →</a>
+    <a href="./art/og/index.html">Формат 1200×630</a>
+    <a href="./art/portrait/index.html">Вертикальный набор</a>
+    <a href="./README.md">Документация</a>
+  </div>
+  <footer>Запуск: <code>npm run gallery</code> · проверка: <code>npm run check</code></footer>
+</main>
+</body>
+</html>

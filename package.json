@@ -1,0 +1,25 @@
+{
+  "name": "prism-svg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Генератор красочных процедурных SVG-постеров: 6 стилей, детерминированные сиды, экспорт в PNG.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./palettes": "./src/palettes.js"
+  },
+  "scripts": {
+    "art": "node src/cli.js",
+    "gallery": "node src/cli.js --count 2 --png --gallery",
+    "png": "node src/cli.js --count 1 --png",
+    "check": "node src/check.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "optionalDependencies": {
+    "sharp": "^0.35.4"
+  }
+}

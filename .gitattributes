@@ -1,0 +1,17 @@
+# Единые переводы строк в репозитории — иначе Windows ломает диффы.
+* text=auto eol=lf
+
+# Бинарники не трогаем
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+
+# Сгенерированные файлы: они большие и шумят в diff на GitHub
+art/**/*.html linguist-generated=true
+art/**/*.svg linguist-generated=true
+art/manifest.json linguist-generated=true
+
+# Галерея и стили считаются разметкой
+*.html linguist-detectable=true
+*.js linguist-language=JavaScript
